@@ -1,0 +1,147 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>RENT A CAR ANDRE</title>
+ 	<script type="text/javascript">
+ 		var pay = function(){
+ 			var message = "congrats on your purchase of a car andre! \n" +
+ 				document.getElementById("fname").value + "\n" +
+ 				document.getElementById("lname").value + "\n" +
+ 				document.getElementById("ccard").value + "\n" +
+ 				document.getElementById("cost").value
+
+ 				if(document.getElementById("fname").value == "" ||
+ 					document.getElementById("lname").value == "" ||
+ 					document.getElementById("ccard").value == "" ||
+ 					document.getElementById("cost").value == ""){
+		 			alert("please fill out all inputs Andre!");
+ 				}else{
+		 			alert(message);
+ 				}
+ 		}
+ 	</script>
+ 	<style>
+ 		body {
+ 			background-image: url("./carspin.gif");
+ 			background-repeat: repeat;
+ 			height: 2000px	;
+ 		}
+ 		h1 {
+ 			background-color: red;
+ 			color: green
+ 		}
+ 		h2 {
+ 			background-color: black;
+ 			color:yellow;
+ 		}
+ 		table {
+ 			border: double 2px red;
+ 		}
+ 		.top-left {
+ 			position: fixed;
+ 			top: 0;
+ 			left: 0;
+ 		}
+ 		.top-right {
+ 			position: fixed;
+ 			top: 0;
+ 			right: 0;
+ 		}
+ 		.bottom-left {
+ 			position: fixed;
+ 			bottom:0;
+ 			left: 0;
+ 		}
+ 		.bottom-right {
+ 			position: fixed;
+ 			right: 0;
+ 			bottom: 0;
+ 		}
+ 		.bottom-middle {
+ 			position:fixed;
+ 			bottom: 0;
+ 			right: 50%;
+ 		}
+ 		.text-background {
+ 			background: white;
+ 			color: red;
+ 		}
+table {
+	background: white;
+}
+td {
+	border: double black;
+}
+ 	</style>
+ </head>
+ <body>
+ 	<img class="top-left" src="torch.gif">
+ 	<img class="top-right" src="torch.gif">
+ 	<img class="bottom-left" src="torch.gif">
+ 	<img class="bottom-right" src="torch.gif">
+ 	<center>
+	 	<h1>HELLO ANDRE</h1>
+	 	<h2>RENT YOUR CAR TODAY!</h2>
+	 	<hr>
+	 	<hr>
+	 	<marquee>
+	 		<img src="car.jpg" height="100px">
+	 		hello andre rent your car today!!!!
+			<img src="car.jpg" height="100px">
+		</marquee>
+	 	<hr>
+	 	<hr>
+	 	<img src="dog.jpg" height="200px"> <br>
+	 	<div class="bottom-middle">
+		 	<img src="construct.2.gif">
+		 	<img src="construct.1.gif">
+		 	<img src="construct.2.gif">
+	 	</div>
+ 	<table>
+	 	<tr>
+	 	<td></td>
+ 		<td><img src="dollar.gif"><img src="sickle.gif"><div class="text-background"> PAY US WITH MONEY!</div> <img src="sickle.gif"><img src="dollar.gif"></td>
+ 		<td></td>
+	 	</tr>
+	 	<tr>
+	 	<td></td>
+	 			 	<td>
+	 		first name<input id="fname"><br>
+	 		last name<input id="lname"><br>
+
+	 		credit card ## (real)<input id="ccard"><br>
+	 		Secret pin (back of card)<input id="pin"><br>
+	 		Cost<input id="cost"><br>
+
+	 		<button onclick="pay()">submit</button>
+	 	</td><td></td>
+	 	</tr>
+ 		<tr>
+ 		<th>test</th>
+ 		<td>A</td>
+ 		<td>B</td>
+ 		<td>C</td>
+	 	</tr>
+	 	<tr>
+	 		<td><img src="drinks.gif"><</td>
+	 		<td>Please DONT DRINK AND DRIVE</td>
+	 		<td><img src="drinks.gif"><</td>
+	 	</tr>
+	 	<tr>
+	 		<td></td>
+	  		<td>
+	  			<img src="hotlinks.gif"><br>
+	  			<ul>
+	  				<li><a href="http://doestheuniverseexist.com">http://doestheuniverseexist.com</a></li>
+	  				<li><a href="http://youvegotmail.warnerbros.com/cmp/0frameset.html">http://youvegotmail.warnerbros.com/cmp/0frameset.html</a></li>
+	  				<li><a href="http://twincitiesautoshow.com">http://twincitiesautoshow.com</a></li>
+	  			</ul>
+	  		</td>
+	 		<td></td>
+
+	 	</tr>
+ 	</table>
+
+ 	</center>
+ </body>
+ </html>
